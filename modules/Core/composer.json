@@ -1,0 +1,25 @@
+{
+    "name": "vendor/core-module",
+    "description": "",
+    "license": "other",
+    "type": "laravel-module",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Alireza Farhanian",
+            "email": "aariow01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}

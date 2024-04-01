@@ -1,0 +1,34 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Modules\Core\Providers\CoreServiceProvider;
+
+class $CLASS$ extends CoreServiceProvider
+{
+    /**
+     * @var string $moduleName
+     */
+    protected string $moduleName = '$STUDLY_NAME$';
+
+    /**
+     * @var string $moduleNameLower
+     */
+    protected string $moduleNameLower = '$LOWER_NAME$';
+
+    /**
+     * Configs files that should be registered.
+     */
+    protected array $configs = [
+        //
+    ];
+
+    /**
+     * Any additional service-provider that should be injected rather than RouteServiceProvider.
+     *
+     * @var array|string[]
+     */
+    protected array $additionalServiceProviders = [
+        RouteServiceProvider::class
+    ];
+}

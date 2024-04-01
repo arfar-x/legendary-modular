@@ -1,0 +1,23 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class $CLASS$ extends Model
+{
+    use HasFactory;
+
+    protected $fillable = $FILLABLE$;
+
+    /**
+    * Create a new factory instance for the model.
+    *
+    * @return \Illuminate\Database\Eloquent\Factories\Factory<static>
+    */
+    protected static function newFactory(): $NAME$Factory
+    {
+        return \$MODULE_NAMESPACE$\$MODULE$\Database\factories\$NAME$Factory::new();
+    }
+}

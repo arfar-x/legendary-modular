@@ -1,0 +1,49 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Modules\Core\Providers\RouteServiceProvider as CoreRouteServiceProvider;
+
+class $CLASS$ extends CoreRouteServiceProvider
+{
+    /**
+     * @var string
+     */
+    protected string $moduleName = '$MODULE$';
+
+    /**
+     * The module namespace to assume when generating URLs to actions.
+     *
+     * @var string
+     */
+    protected string $moduleNamespace = '$MODULE_NAMESPACE$\$MODULE$\$CONTROLLER_NAMESPACE$';
+
+    /**
+     * Module's specific middleware aliases.
+     *
+     * @var array
+     */
+    protected array $aliasMiddlewares = [
+        //
+    ];
+
+    /**
+     * Global middlewares that are applied to the entire application.
+     *
+     * @var array
+     */
+    protected array $globalMiddleware = [
+        //
+    ];
+
+    /**
+     * All these middlewares are applied to overall application middleware group.
+     *
+     * @var array
+     */
+    protected $middlewareGroups = [
+        'api' => [
+            //
+        ],
+    ];
+}
